@@ -1,0 +1,18 @@
+venv/
+__pycache__/
+*.pyc
+*.zip
+src/profiling/profile_harness
+
+arxiv_file/
+presentation/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.nav
+*.snm
+*.toc

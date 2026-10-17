@@ -1,0 +1,23 @@
+{
+  "cycle_estimation_method": "modeled_instruction_counts_analytical",
+  "cycle_disclaimer": "Cycles are modeled analytical instruction-level estimates from ARM Cortex-M4 technical reference manuals summing constituent kernels.",
+  "macs_direct_3m": 48,
+  "muls_recursive_o1": 35,
+  "cycles_fir": 34,
+  "cycles_energy": 6,
+  "cycles_envelope": 5,
+  "cycles_comparator": 4,
+  "cycles_vdiv": 14,
+  "cycles_tap_update": 34,
+  "float32_cycles_m4": 97,
+  "float32_exec_time_us": 1.52,
+  "float32_m4_cpu_load_pct": 0.038,
+  "float32_ram_bytes": 160,
+  "host_latency_ns_f32": 147.4,
+  "clamp_duty_validation_pct": 3.4,
+  "recursive_energy_max_error": 0.00000310,
+  "recursive_energy_verified": true,
+  "q15_bitshift_max_single_step_error": 0.000031,
+  "q15_bitshift_max_error": 0.000332,
+  "q15_bitshift_verified": true
+}

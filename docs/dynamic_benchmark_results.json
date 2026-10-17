@@ -1,0 +1,330 @@
+{
+  "dynamic_plant_benchmarks": {
+    "nlms_def": {
+      "delta_snr_mean": 5.40229648309596,
+      "delta_snr_std": 2.175013371924082,
+      "rho_r_mean": 96.29842853690582,
+      "rho_r_std": 1.4908904166937997,
+      "r_qrs_mean": 0.9909628239136807,
+      "duty_mean": 0.0
+    },
+    "nlms_tuned_002": {
+      "delta_snr_mean": 7.407648348104945,
+      "delta_snr_std": 0.8861050448118896,
+      "rho_r_mean": 99.39936689878925,
+      "rho_r_std": 0.9889626109489829,
+      "r_qrs_mean": 0.9970291589030877,
+      "duty_mean": 0.0
+    },
+    "nlms_clamped_002": {
+      "delta_snr_mean": 7.595601848030251,
+      "delta_snr_std": 0.5467524596351601,
+      "rho_r_mean": 99.71046794337596,
+      "rho_r_std": 0.893209992302898,
+      "r_qrs_mean": 0.9971816582212192,
+      "duty_mean": 0.0
+    },
+    "nlms_tuned_005": {
+      "delta_snr_mean": 8.139256631232659,
+      "delta_snr_std": 1.4003442097634409,
+      "rho_r_mean": 98.93578972739685,
+      "rho_r_std": 0.8391197544821573,
+      "r_qrs_mean": 0.9968989759821042,
+      "duty_mean": 0.0
+    },
+    "nlms_clamped_amp": {
+      "delta_snr_mean": 9.04198793633068,
+      "delta_snr_std": 1.2537049638346822,
+      "rho_r_mean": 99.70670390761468,
+      "rho_r_std": 0.7010573440562177,
+      "r_qrs_mean": 0.9974820831719765,
+      "duty_mean": 0.0
+    },
+    "kwong": {
+      "delta_snr_mean": 5.869504860673511,
+      "delta_snr_std": 1.2352611487032998,
+      "rho_r_mean": 98.84316345962205,
+      "rho_r_std": 0.9297378505956504,
+      "r_qrs_mean": 0.9950381604586027,
+      "duty_mean": 0.0
+    },
+    "amplitude_gate": {
+      "delta_snr_mean": 6.2500456158656945,
+      "delta_snr_std": 3.1032462727793746,
+      "rho_r_mean": 100.41077883886076,
+      "rho_r_std": 1.413094217717842,
+      "r_qrs_mean": 0.9946653306640362,
+      "duty_mean": 0.0
+    },
+    "random_clamp": {
+      "delta_snr_mean": 3.818396244184441,
+      "delta_snr_std": 2.068999448477024,
+      "rho_r_mean": 93.79438669543775,
+      "rho_r_std": 2.148752670226026,
+      "r_qrs_mean": 0.9821702411447134,
+      "duty_mean": 0.0
+    },
+    "imu_curv": {
+      "delta_snr_mean": 6.000725513636593,
+      "delta_snr_std": 0.6849645295562936,
+      "rho_r_mean": 99.72119788548245,
+      "rho_r_std": 0.7741249822066729,
+      "r_qrs_mean": 0.9967405849989622,
+      "duty_mean": 14.55047619047619
+    },
+    "imu_fd": {
+      "delta_snr_mean": 5.941185710378929,
+      "delta_snr_std": 0.6862905800820126,
+      "rho_r_mean": 99.74206261607573,
+      "rho_r_std": 0.8232479564356823,
+      "r_qrs_mean": 0.9966702426394166,
+      "duty_mean": 16.80142857142857
+    },
+    "imu_amp": {
+      "delta_snr_mean": 6.1288707930433945,
+      "delta_snr_std": 0.7019899979996523,
+      "rho_r_mean": 99.77574686930416,
+      "rho_r_std": 0.728536553964951,
+      "r_qrs_mean": 0.9968711605790503,
+      "duty_mean": 4.9938095238095235
+    },
+    "plain_rls": {
+      "delta_snr_mean": 9.709597679444839,
+      "delta_snr_std": 0.5837949447674848,
+      "rho_r_mean": 99.45581198994543,
+      "rho_r_std": 0.7647719421567328,
+      "r_qrs_mean": 0.9975404441574713,
+      "duty_mean": 0.0
+    },
+    "clamped_rls": {
+      "delta_snr_mean": 10.185366413142718,
+      "delta_snr_std": 1.6660346696351311,
+      "rho_r_mean": 99.42985760519718,
+      "rho_r_std": 1.3002538583141696,
+      "r_qrs_mean": 0.9919264436522349,
+      "duty_mean": 0.0
+    },
+    "clamped_rls_099": {
+      "delta_snr_mean": 11.13213419246326,
+      "delta_snr_std": 1.5534906284257444,
+      "rho_r_mean": 99.56906837961729,
+      "rho_r_std": 0.9607300873032877,
+      "r_qrs_mean": 0.9949840328647559,
+      "duty_mean": 0.0
+    },
+    "wilcoxon_curv_vs_nlms": {
+      "stat": 7.0,
+      "p_value": 0.0023193359375
+    },
+    "wilcoxon_amp_vs_nlms": {
+      "stat": 7.0,
+      "p_value": 0.0023193359375
+    },
+    "wilcoxon_amp_vs_clamped": {
+      "stat": 0.0,
+      "p_value": 0.0001220703125
+    },
+    "wilcoxon_clamp_vs_tuned_nlms": {
+      "stat": 3.0,
+      "p_value": 0.0006103515625
+    },
+    "wilcoxon_clamp_vs_tuned_002": {
+      "stat": 28.0,
+      "p_value": 0.13525390625
+    },
+    "wilcoxon_clamp_vs_def_nlms": {
+      "stat": 0.0,
+      "p_value": 0.0001220703125
+    },
+    "nlms_grid_sweep": {
+      "grid": {
+        "0.001": 6.15,
+        "0.002": 7.41,
+        "0.005": 8.14,
+        "0.01": 7.24,
+        "0.02": 5.4,
+        "0.05": 2.82
+      },
+      "best_mu": 0.005,
+      "best_delta_snr": 8.14
+    }
+  },
+  "stress_tests": {
+    "S0": {
+      "description": "Stationary S0 (0 dB input SNR)",
+      "nlms": 6.489899789440076,
+      "nlms_tuned": 11.545998056104818,
+      "nlms_clamped": 13.404777386591425,
+      "kwong": 8.435626510851055,
+      "rls": 15.67825422509992,
+      "imu_only": 9.491202204307797,
+      "curv": 9.133890009352843,
+      "amp": 9.059287839821009,
+      "diff": 8.798266294187219,
+      "curv_duty": 12.83095238095238,
+      "amp_duty": 4.435714285714286,
+      "diff_duty": 15.894285714285713,
+      "wilcoxon_clamp_vs_tuned": {
+        "stat": 0.0,
+        "p_value": 0.0001220703125
+      },
+      "wilcoxon_clamp_vs_rls": {
+        "stat": 0.0,
+        "p_value": 0.0001220703125
+      }
+    },
+    "S1": {
+      "description": "S1: Nonlinear coupling + tap drift",
+      "nlms": 5.918041715469249,
+      "nlms_tuned": 9.163706401895622,
+      "nlms_clamped": 10.195568315813603,
+      "kwong": 6.884011305128086,
+      "rls": 11.163133186359635,
+      "imu_only": 7.3019323051353595,
+      "curv": 7.047066143392395,
+      "amp": 6.929531263078609,
+      "diff": 6.747517325048859,
+      "curv_duty": 13.246190476190478,
+      "amp_duty": 5.128571428571427,
+      "diff_duty": 16.323809523809523,
+      "wilcoxon_clamp_vs_tuned": {
+        "stat": 0.0,
+        "p_value": 0.0001220703125
+      },
+      "wilcoxon_clamp_vs_rls": {
+        "stat": 14.0,
+        "p_value": 0.013427734375
+      }
+    },
+    "S2": {
+      "description": "S2: 50% artifact power unseen by reference",
+      "nlms": 0.591479427354287,
+      "nlms_tuned": 2.1067724412946403,
+      "nlms_clamped": 2.2492713950150836,
+      "kwong": 1.4389988834557539,
+      "rls": 2.679564503530834,
+      "imu_only": 2.428747268433216,
+      "curv": 2.4090582530195768,
+      "amp": 2.3875961386716917,
+      "diff": 2.378245542727079,
+      "curv_duty": 9.00047619047619,
+      "amp_duty": 4.523809523809524,
+      "diff_duty": 11.358095238095236,
+      "wilcoxon_clamp_vs_tuned": {
+        "stat": 10.0,
+        "p_value": 0.0052490234375
+      },
+      "wilcoxon_clamp_vs_rls": {
+        "stat": 0.0,
+        "p_value": 0.0001220703125
+      }
+    },
+    "S3": {
+      "description": "S3: Harsh (S1 + S2 + Noisy sensor 0.3)",
+      "nlms": 2.125974076243962,
+      "nlms_tuned": 2.803686809561246,
+      "nlms_clamped": 2.9031817768846624,
+      "kwong": 2.199993295719086,
+      "rls": 3.039459179303697,
+      "imu_only": 2.739497134798115,
+      "curv": 2.7203469920474794,
+      "amp": 2.710942758790211,
+      "diff": 2.7022898703680114,
+      "curv_duty": 9.188095238095238,
+      "amp_duty": 4.812857142857143,
+      "diff_duty": 11.635714285714286,
+      "wilcoxon_clamp_vs_tuned": {
+        "stat": 7.0,
+        "p_value": 0.0023193359375
+      },
+      "wilcoxon_clamp_vs_rls": {
+        "stat": 30.0,
+        "p_value": 0.172607421875
+      }
+    },
+    "S4": {
+      "description": "S4: Unreferenced EMG (NSTDB ma at 6 dB)",
+      "nlms": 3.9875911776195365,
+      "nlms_tuned": 5.864365238160338,
+      "nlms_clamped": 6.205200995810968,
+      "kwong": 4.848028521831601,
+      "rls": 6.47964631328781,
+      "imu_only": 5.3404920248944805,
+      "curv": 4.760322757716614,
+      "amp": 5.185624148969666,
+      "diff": 4.691762162414555,
+      "curv_duty": 41.18857142857143,
+      "amp_duty": 4.967142857142856,
+      "diff_duty": 39.477619047619044,
+      "wilcoxon_clamp_vs_tuned": {
+        "stat": 0.0,
+        "p_value": 0.0001220703125
+      },
+      "wilcoxon_clamp_vs_rls": {
+        "stat": 7.0,
+        "p_value": 0.0023193359375
+      }
+    },
+    "S5": {
+      "description": "S5: Severe unreferenced EMG (NSTDB ma at 0 dB)",
+      "nlms": 1.9567611290335787,
+      "nlms_tuned": 2.701502260620901,
+      "nlms_clamped": 2.7972112936460745,
+      "kwong": 2.2563089436009642,
+      "rls": 2.8338315458732213,
+      "imu_only": 2.5488859761877722,
+      "curv": 2.214859734691094,
+      "amp": 2.4922329983989724,
+      "diff": 2.207877789298264,
+      "curv_duty": 57.269999999999996,
+      "amp_duty": 5.374761904761905,
+      "diff_duty": 55.28190476190476,
+      "wilcoxon_clamp_vs_tuned": {
+        "stat": 0.0,
+        "p_value": 0.0001220703125
+      },
+      "wilcoxon_clamp_vs_rls": {
+        "stat": 45.0,
+        "p_value": 0.6697998046875
+      },
+      "p_val_amp_vs_curv": 0.0001220703125
+    }
+  },
+  "gate_statistics": {
+    "duty_cycle_pct": 8.8,
+    "beat_recall_pct": 85.6,
+    "precision_pct": 64.9,
+    "total_beats": 541,
+    "detected_beats": 463
+  },
+  "biopotential_gated_noise_sweep": {
+    "0.08": {
+      "plain_rls_mean": 15.443363708895786,
+      "clamped_e_mean": 17.828896397640996,
+      "clamped_d_mean": 17.132130918769015,
+      "duty_e_mean": 7.5323809523809535,
+      "duty_d_mean": 4.575238095238096
+    },
+    "0.25": {
+      "plain_rls_mean": 12.678767097350418,
+      "clamped_e_mean": 13.678634282706664,
+      "clamped_d_mean": 13.402404450271748,
+      "duty_e_mean": 7.26095238095238,
+      "duty_d_mean": 4.575238095238096
+    },
+    "0.5": {
+      "plain_rls_mean": 9.65567240266098,
+      "clamped_e_mean": 10.055986726098888,
+      "clamped_d_mean": 9.938530780487294,
+      "duty_e_mean": 7.0219047619047625,
+      "duty_d_mean": 4.575238095238096
+    },
+    "1.0": {
+      "plain_rls_mean": 6.372364412736986,
+      "clamped_e_mean": 6.566780532063246,
+      "clamped_d_mean": 6.535280446598882,
+      "duty_e_mean": 6.639047619047618,
+      "duty_d_mean": 4.575238095238096
+    }
+  }
+}

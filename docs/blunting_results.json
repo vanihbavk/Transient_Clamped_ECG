@@ -1,0 +1,10 @@
+{
+  "total_beats": 2059,
+  "mean_blunting_pct": 3.3607801624712152,
+  "median_blunting_pct": 3.061128836882088,
+  "p90_blunting_pct": 10.131228986461249,
+  "p95_blunting_pct": 13.861956777311454,
+  "max_blunting_pct": 88.75075590787189,
+  "fast_apex_blunting_pct": 12.726447854163478,
+  "fast_apex_diff_pct": -12.726447854163478
+}
