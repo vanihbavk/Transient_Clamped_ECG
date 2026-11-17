@@ -1,0 +1,20 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.zip
+src/profiling/profile_harness
+
+# Manuscript & Preprint directory (excluded from code repository)
+paper/
+
+# PhysioNet cached datasets (auto-downloaded via wfdb on first run)
+data/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
